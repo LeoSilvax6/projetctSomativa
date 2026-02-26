@@ -1,8 +1,17 @@
-# Calculadora simples - Versão 1
+# Calculadora simples - Versão 5
+
+print("=== CALCULADORA SIMPLES ===")
 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
-resultado = num1 + num2
+print("Soma:", num1 + num2)
+print("Subtração:", num1 - num2)
+print("Multiplicação:", num1 * num2)
 
-print("Resultado da soma:", resultado)
+if num2 != 0:
+    print("Divisão:", num1 / num2)
+else:
+    print("Não é possível dividir por zero")
+
+print("Obrigado por usar a calculadora!")
