@@ -1,4 +1,6 @@
-# Calculadora simples - Versão 4
+# Calculadora simples - Versão 5
+
+print("=== CALCULADORA SIMPLES ===")
 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
@@ -11,3 +13,5 @@ if num2 != 0:
     print("Divisão:", num1 / num2)
 else:
     print("Não é possível dividir por zero")
+
+print("Obrigado por usar a calculadora!")
